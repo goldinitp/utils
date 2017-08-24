@@ -1,6 +1,7 @@
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+```
 alias plo="git pull origin"
 alias puo="git push origin"
 alias sts="git stash"
@@ -19,6 +20,7 @@ alias gcm="git checkout master"
 alias box="~/Desktop/bin/mount.sh"
 alias radhe="cd ~/1conf; vagrant up; vagrant ssh;"
 alias gr="git grep"
+```
 
 # font color
 color='\e[0;36m'
@@ -35,7 +37,7 @@ NC='\e[0m'
 a=`date|cut -c 19`
 
 # Array containing quotes- you can edit it to your favorite quotes
-
+```
 var=(" Ever tried. Ever failed. No matter. Try Again. Fail again. Fail better.
 \n \t\t\t\t\t\t\t-Samuel Beckett " "Never give up, for that is just the place and time that the tide will turn.
 \n \t\t\t\t\t\t\t-Harriet Beecher Stowe " "Our greatest weakness lies in giving up. The most certain way to succeed is always to try just one more time.
@@ -48,6 +50,7 @@ var=(" Ever tried. Ever failed. No matter. Try Again. Fail again. Fail better.
 \n \t\t\t\t\t\t\t-Robert F. Kennedy" "All our dreams can come true, if we have the courage to pursue them.
 \n \t\t\t\t\t\t\t-Walt Disney " "Success consists of going from failure to failure without loss of enthusiasm.
 \n \t\t\t\t\t\t\t-Winston Churchill" )
+```
 
 # Welcome message ! Edit it with your name
 echo -e "\n${color}${var[$a]}${NC}"
